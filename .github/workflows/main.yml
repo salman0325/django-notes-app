@@ -1,8 +1,9 @@
 name: Django CI/CD
-
 on:
   push:
     branches: [ main ]
+  schedule:
+    - cron: '*/2 * * * *'
 
 jobs:
   build-test-push:
