@@ -35,4 +35,3 @@ jobs:
         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/django-notes-app:latest .
 
       - name: Push to Docker Hub
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/django-notes-app:v2
