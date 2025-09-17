@@ -1,6 +1,6 @@
 name: Django CI/CD
 on:
-  push:
+
     
   schedule:
     - cron: '*/2 * * * *'
