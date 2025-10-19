@@ -2,8 +2,7 @@ name: Django CI/CD
 on:
 
     
-  schedule:
-    - cron: '*/2 * * * *'
+
 
 jobs:
   build-test-push:
